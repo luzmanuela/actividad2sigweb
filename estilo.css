@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	}
+	
+	
+	#map{
+
+	width:100%;
+	height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    }
+
+   
+    .contenido {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    }    
+
+    
+	#norte{
+        position:fixed;
+        width: 3%;
+        left: 25%;
+        top:0%;
+        }
+        
+    #seleccionar_color{
+        position:fixed;
+        width:1.8%;
+        left: 0.6%;
+        top:10%;
+        }
+
+    .leaflet-control-layers label {
+        text-align: justify;
+         }
+
+
